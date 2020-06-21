@@ -1,4 +1,5 @@
 import ui
+from .material import Material
 from objc_util import ObjCClass, ObjCInstance, CGRect, CGPoint, CGSize, load_framework
 
 load_framework('SceneKit')
@@ -43,7 +44,9 @@ class World:
         self.instance.addSubview_(self.scn_view)
 
     def add_childmaterial(self, material):
-        pass
+        if not isinstance(material, Material):
+            raise ValueError('It is not material instance')
+        self.scene.rootNode().addChildNode_(material.node)
 
     def present(self):
         self.ui_view.present()
