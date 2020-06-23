@@ -1,5 +1,6 @@
 import ui
 from material import Material, Light
+from color import Color
 from objc_util import ObjCClass, ObjCInstance, CGRect, CGPoint, CGSize, load_framework
 
 load_framework('SceneKit')
@@ -41,7 +42,7 @@ class World(ui.View):
         self.scn_view.setSession_(self.ar_session)
         
         self.instance.addSubview_(self.scn_view)
-        
+
     def add_childmaterial(self, material):
         if not isinstance(material, Material):
             raise ValueError('It is not material instance')
@@ -50,8 +51,12 @@ class World(ui.View):
 
 if __name__ == '__main__':
     w = World()
-    m = Material.Box(height=0.1, width=0.1, length=0.1, chamferRadius=0.1, position=(0, 0, -0.2))
-    l = Light(position=(0, 20, -0.2))
+    m = Material.Box(height=0.1, width=0.1, length=0.1, chamferRadius=0.05, position=(0, 0, -0.2))
+    
+    l = Light((-40,40,60), color=Color.blue())
+    l2 = Light(light_type='ambient', color=Color.purple())
+    
     w.add_childmaterial(m)
     w.add_childmaterial(l)
+    w.add_childmaterial(l2)
     w.present()

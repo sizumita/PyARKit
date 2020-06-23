@@ -18,13 +18,14 @@ ARSession = ObjCClass('ARSession')
 
 
 class Material:
-    def __init__(self, obj, position=None):
-        obj.material().setColor_(UIColor.cyanColor().CGColor())
+    def __init__(self, obj, position=None, color=None):
         self.obj = obj
         self.position = position or (0, 0, 0)
         self.node = SCNNode.nodeWithGeometry_(self.obj)
-        if True:
+        if position is not None:
             self.set_position()
+        if color is not None:
+            self.set_color(color)
 
     def set_position(self):
         self.node.setPosition_(self.position)
@@ -32,7 +33,7 @@ class Material:
     def set_color(self, color):
         if not isinstance(color, Color):
             self.obj.setColor_(color)
-        self.obj.setColor_(color.get())
+        self.obj.material().setColor_(color.get())
     
     @classmethod
     def Box(cls, width=0, height=0, length=0, chamferRadius=0, position=None):
@@ -41,11 +42,21 @@ class Material:
 
 
 class Light(Material):
-    def __init__(self, position=None, light_type='omni'):
+    def __init__(self, position=None, light_type='omni', color=None):
         self.obj = SCNLight.light()
         self.position = position or (0, 0, 0)
         self.obj.setType_(light_type)
         self.node = SCNNode.node()
         self.node.setLight_(self.obj)
-        self.set_color(UIColor.greenColor().CGColor())
+        
+        if position is not None:
+            self.set_position()
+        
+        if color is not None:
+            self.set_color(color)
+    
+    def set_color(self, color):
+        if not isinstance(color, Color):
+            self.obj.setColor_(color)
+        self.obj.setColor_(color.get())
 
