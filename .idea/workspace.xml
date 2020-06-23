@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="b572ea5c-91e8-4131-bc31-d679397008b0" name="Default Changelist" comment="[Add] Colorを追加&#10;[Change] Materialの色の指定方法を変更">
+      <change beforePath="$PROJECT_DIR$/PyARKit/material.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyARKit/material.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PyARKit/world.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyARKit/world.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1dbr1hb8YlujtxrnI8eoE1SwMXB" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="b572ea5c-91e8-4131-bc31-d679397008b0" name="Default Changelist" comment="" />
+      <created>1592704421307</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1592704421307</updated>
+    </task>
+    <task id="LOCAL-00001" summary="[Add] ファイル">
+      <created>1592705936360</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592705936360</updated>
+    </task>
+    <task id="LOCAL-00002" summary="[Add] World Class">
+      <created>1592728639397</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592728639397</updated>
+    </task>
+    <task id="LOCAL-00003" summary="[Add] Material Class">
+      <created>1592730354915</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592730354915</updated>
+    </task>
+    <task id="LOCAL-00004" summary="[Add] Materialをロードする仕組み">
+      <created>1592730530341</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1592730530341</updated>
+    </task>
+    <task id="LOCAL-00005" summary="[Add] Materialを作成&#10;[Add] Lightを作成&#10;[Add] Colorのclassを作成">
+      <created>1592873678842</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1592873678842</updated>
+    </task>
+    <task id="LOCAL-00006" summary="[Add] Colorを追加&#10;[Change] Materialの色の指定方法を変更">
+      <created>1592874815528</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592874815528</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="[Add] ファイル" />
+    <MESSAGE value="[Add] World Class" />
+    <MESSAGE value="[Add] Material Class" />
+    <MESSAGE value="[Add] Materialをロードする仕組み" />
+    <MESSAGE value="[Add] Materialを作成&#10;[Add] Lightを作成&#10;[Add] Colorのclassを作成" />
+    <MESSAGE value="[Add] Colorを追加&#10;[Change] Materialの色の指定方法を変更" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] Colorを追加&#10;[Change] Materialの色の指定方法を変更" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1856" y="597" key="Vcs.Push.Dialog.v2" timestamp="1592873683199">
+      <screen x="0" y="23" width="3008" height="1669" />
+    </state>
+    <state x="1856" y="597" key="Vcs.Push.Dialog.v2/0.23.3008.1669@0.23.3008.1669" timestamp="1592873683199" />
+  </component>
+</project>
