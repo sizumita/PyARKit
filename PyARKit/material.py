@@ -34,14 +34,14 @@ class Material:
         if not isinstance(color, Color):
             self.obj.setColor_(color)
         self.obj.material().setColor_(color.get())
-    
+
     @classmethod
     def Box(cls, width=0, height=0, length=0, chamferRadius=0, position=None):
-        box_obj=SCNBox.boxWithWidth_height_length_chamferRadius_(width, height, length, chamferRadius)
+        box_obj = SCNBox.boxWithWidth_height_length_chamferRadius_(width, height, length, chamferRadius)
         return cls(box_obj, position)
 
 
-class Light(Material):
+class Light:
     def __init__(self, position=None, light_type='omni', color=None):
         self.obj = SCNLight.light()
         self.position = position or (0, 0, 0)
@@ -54,6 +54,9 @@ class Light(Material):
         
         if color is not None:
             self.set_color(color)
+
+    def set_position(self):
+        self.node.setPosition_(self.position)
     
     def set_color(self, color):
         if not isinstance(color, Color):

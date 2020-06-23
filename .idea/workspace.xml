@@ -19,9 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b572ea5c-91e8-4131-bc31-d679397008b0" name="Default Changelist" comment="[Add] Materialを作成&#10;[Add] Lightを作成&#10;[Add] Colorのclassを作成">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PyARKit/color.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyARKit/color.py" afterDir="false" />
+    <list default="true" id="b572ea5c-91e8-4131-bc31-d679397008b0" name="Default Changelist" comment="[Add] Colorを追加&#10;[Change] Materialの色の指定方法を変更">
       <change beforePath="$PROJECT_DIR$/PyARKit/material.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyARKit/material.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PyARKit/world.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyARKit/world.py" afterDir="false" />
     </list>
@@ -96,7 +94,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592873678842</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[Add] Colorを追加&#10;[Change] Materialの色の指定方法を変更">
+      <created>1592874815528</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1592874815528</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -117,7 +122,8 @@
     <MESSAGE value="[Add] Material Class" />
     <MESSAGE value="[Add] Materialをロードする仕組み" />
     <MESSAGE value="[Add] Materialを作成&#10;[Add] Lightを作成&#10;[Add] Colorのclassを作成" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Add] Materialを作成&#10;[Add] Lightを作成&#10;[Add] Colorのclassを作成" />
+    <MESSAGE value="[Add] Colorを追加&#10;[Change] Materialの色の指定方法を変更" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Add] Colorを追加&#10;[Change] Materialの色の指定方法を変更" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1856" y="597" key="Vcs.Push.Dialog.v2" timestamp="1592873683199">

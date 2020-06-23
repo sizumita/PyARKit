@@ -43,10 +43,19 @@ class World(ui.View):
         
         self.instance.addSubview_(self.scn_view)
 
-    def add_childmaterial(self, material):
+    def add_material(self, material):
         if not isinstance(material, Material):
-            raise ValueError('It is not material instance')
+            self.scene.rootNode().addChildNode_(material)
+            return
+
         self.scene.rootNode().addChildNode_(material.node)
+
+    def add_light(self, light):
+        if not isinstance(light, Light):
+            self.scene.rootNode().addChildNode_(light)
+            return
+
+        self.scene.rootNode().addChildNode_(light.node)
 
 
 if __name__ == '__main__':
@@ -55,8 +64,8 @@ if __name__ == '__main__':
     
     l = Light((-40,40,60), color=Color.blue())
     l2 = Light(light_type='ambient', color=Color.purple())
-    
-    w.add_childmaterial(m)
-    w.add_childmaterial(l)
-    w.add_childmaterial(l2)
+
+    w.add_material(m)
+    w.add_light(l)
+    w.add_light(l2)
     w.present()
