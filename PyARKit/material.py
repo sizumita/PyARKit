@@ -11,6 +11,7 @@ SCNMaterial = ObjCClass('SCNMaterial')
 SCNBox = ObjCClass('SCNBox')
 UIColor = ObjCClass('UIColor')
 SCNLight = ObjCClass('SCNLight')
+SCNText = ObjCClass('SCNText')
 
 ARWorldTrackingConfiguration = ObjCClass('ARWorldTrackingConfiguration')
 ARSCNView = ObjCClass('ARSCNView')
@@ -37,7 +38,7 @@ class Material:
 
     @classmethod
     def Box(cls, width=0, height=0, length=0, chamferRadius=0, position=None):
-        box_obj = SCNBox.boxWithWidth_height_length_chamferRadius_(width, height, length, chamferRadius)
+        box_obj = SCNBox.boxWithWidth_height_length_chamferRadius_(width, height, length, chamferRadius).autorelease()
         return cls(box_obj, position)
 
 

@@ -64,8 +64,10 @@ if __name__ == '__main__':
     
     l = Light((-40,40,60), color=Color.blue())
     l2 = Light(light_type='ambient', color=Color.purple())
+    l3 = Light((40, 40, -60), color=Color.white())
 
     w.add_material(m)
+    w.add_light(l3)
     w.add_light(l)
     w.add_light(l2)
     w.present()

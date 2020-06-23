@@ -19,7 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b572ea5c-91e8-4131-bc31-d679397008b0" name="Default Changelist" comment="[Add] Colorを追加&#10;[Change] Materialの色の指定方法を変更">
+    <list default="true" id="b572ea5c-91e8-4131-bc31-d679397008b0" name="Default Changelist" comment="[Change] 読み込み方法を変更">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PyARKit/material.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyARKit/material.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PyARKit/world.py" beforeDir="false" afterPath="$PROJECT_DIR$/PyARKit/world.py" afterDir="false" />
     </list>
@@ -101,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1592874815528</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="[Change] 読み込み方法を変更">
+      <created>1592875296597</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1592875296597</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -123,12 +131,13 @@
     <MESSAGE value="[Add] Materialをロードする仕組み" />
     <MESSAGE value="[Add] Materialを作成&#10;[Add] Lightを作成&#10;[Add] Colorのclassを作成" />
     <MESSAGE value="[Add] Colorを追加&#10;[Change] Materialの色の指定方法を変更" />
-    <option name="LAST_COMMIT_MESSAGE" value="[Add] Colorを追加&#10;[Change] Materialの色の指定方法を変更" />
+    <MESSAGE value="[Change] 読み込み方法を変更" />
+    <option name="LAST_COMMIT_MESSAGE" value="[Change] 読み込み方法を変更" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="1856" y="597" key="Vcs.Push.Dialog.v2" timestamp="1592873683199">
+    <state x="1856" y="597" key="Vcs.Push.Dialog.v2" timestamp="1592875298557">
       <screen x="0" y="23" width="3008" height="1669" />
     </state>
-    <state x="1856" y="597" key="Vcs.Push.Dialog.v2/0.23.3008.1669@0.23.3008.1669" timestamp="1592873683199" />
+    <state x="1856" y="597" key="Vcs.Push.Dialog.v2/0.23.3008.1669@0.23.3008.1669" timestamp="1592875298557" />
   </component>
 </project>
